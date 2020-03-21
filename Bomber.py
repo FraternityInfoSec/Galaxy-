@@ -1,6 +1,6 @@
 import requests, os, sys, time
 
-print("\033[96mCoded by github.com/Sanif007 \033[0m ")
+print("\033[96mCoded by https://github.com/ProfessorCipher\033[0m")
 
 print("\033[93m Version 2.0 \033[0m")
 
@@ -54,7 +54,7 @@ def sms() :
 
    if '"success" : false' in resp.text :
 
-       print("failed to send msg!\n Sorry!! Try again!! ")
+       print("\033[98mfailed to send msg!\n Sorry!! Try again!! ")
 
 def status() :
 
@@ -64,11 +64,11 @@ def status() :
 
 os.system("clear")
 
-os.system("toilet -f mono12 -F gay Scammer ")
+os.system("toilet -f mono12 -F gay GALAXY- ")
 
-print("\033[96mCoded by github.com/Sanif007")
+print("\033[96mCoded by github.com/ProfessorCipher")
 
-print("Insta handle - @haoi_hackers_academy_of_india")
+print("Re-updated tool by 445H4N or also known as PROF.CIPHER :)")
 
 menu()
 
