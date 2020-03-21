@@ -8,4 +8,4 @@ command -v pip > /dev/null 2>&1 || {  echo >&2 "we require pip but it is not ins
 
 command -v toilet > /dev/null 2>&1 || {  echo >&2 "we require toilet package but it is not installed. \n installing it.."; apt install toilet -y; }
 
-command -v fish > /dev/ull 2>&1 || { echo >&2 "we require fish but it isn't important and not installed it is required in case if you forget coding for installation later. \installing it.."apt install fish -y;} 
+command -v fish > /dev/ull 2>&1 || { echo >&2 "we require fish but it isn't important and not installed it is required in case if you forget coding for installation later. \installing it.."; apt install fish -y;} 
