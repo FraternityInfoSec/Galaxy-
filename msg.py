@@ -4,7 +4,7 @@ print("\033[98mCoded by https://github.com/ProfessorCipher\033[0m")
 
 print("\033[96m Version 2.0 \033[0m")
 
-print("\033[94m checking server... \033[0m")
+print("\033[32m checking server... \033[0m")
 
 time.sleep(2)
 
@@ -18,7 +18,7 @@ def menu() :
 
 def control() :
 
-    ctrl = input("What you want to do : ")
+    ctrl = input("\033[36What you want to do : \033[om")
 
     if ctrl == "1" :
 
@@ -54,7 +54,7 @@ def sms() :
 
    if '"success" : false' in resp.text :
 
-       print("\033[98mfailed to send msg!\n Sorry!! Try again!! ")
+       print("\033[34mfailed to send msg!\n Sorry!! Try again!! ")
 
 def status() :
 
@@ -66,9 +66,9 @@ os.system("clear")
 
 os.system("toilet -f mono12 -F gay GALAXY- ")
 
-print("\033[96mCoded by github.com/ProfessorCipher")
+print("\033[33m.\033[32mCoded by github.com/ProfessorCipher")
 
-print("\033[96mRe-updated tool by 445H4N or also known as PROF.CIPHER :)")
+print("\033[33m. \033[33mRe-updated tool by 445H4N or also known as PROF.CIPHER :)")
 
 menu()
 
