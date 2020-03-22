@@ -66,9 +66,9 @@ os.system("clear")
 
 os.system("toilet -f mono12 -F gay GALAXY- ")
 
-print("\033[98mCoded by github.com/ProfessorCipher")
+print("\033[96mCoded by github.com/ProfessorCipher")
 
-print("Re-updated tool by 445H4N or also known as PROF.CIPHER :)")
+print("\033[96mRe-updated tool by 445H4N or also known as PROF.CIPHER :)")
 
 menu()
 
