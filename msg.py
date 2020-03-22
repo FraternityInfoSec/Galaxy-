@@ -18,7 +18,7 @@ def menu() :
 
 def control() :
 
-    ctrl = input("\033[5mWhat you want to do : \033[0m")
+    ctrl = input("\033[45mWhat you want to do : \033[0m")
 
     if ctrl == "1" :
 
@@ -34,9 +34,9 @@ def control() :
 
 def sms() :
 
-   phone_no = input("\033[34menter phone number : \033[0m")
+   phone_no = input("\033[44menter phone number : \033[0m")
 
-   msg = input("\033[34mmessage to send : \033[0m")
+   msg = input("\033[44mmessage to send : \033[0m")
 
    resp = requests.post('https://textbelt.com/text',{
 
