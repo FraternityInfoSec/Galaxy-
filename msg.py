@@ -1,6 +1,6 @@
 import requests, os, sys, time
 
-print("\033[98mCoded by https://github.com/ProfessorCipher\033[0m")
+print("\033[41mCoded by https://github.com/ProfessorCipher\033[0m")
 
 print("\033[96m Version 2.0 \033[0m")
 
@@ -18,7 +18,7 @@ def menu() :
 
 def control() :
 
-    ctrl = input("\033[36What you want to do : \033[om")
+    ctrl = input("\033[100mWhat you want to do : \033[om")
 
     if ctrl == "1" :
 
@@ -34,9 +34,9 @@ def control() :
 
 def sms() :
 
-   phone_no = input("\033[96menter phone number : \033[0m")
+   phone_no = input("\033[100menter phone number : \033[0m")
 
-   msg = input("\033[96message to send : \033[0m")
+   msg = input("\033[100message to send : \033[0m")
 
    resp = requests.post('https://textbelt.com/text',{
 
@@ -66,7 +66,7 @@ os.system("clear")
 
 os.system("toilet -f mono12 -F gay GALAXY- ")
 
-print("\033[33m.\033[32mCoded by github.com/ProfessorCipher")
+print("\033[33m.\033[41mCoded by github.com/ProfessorCipher")
 
 print("\033[33m. \033[33mRe-updated tool by 445H4N or also known as PROF.CIPHER :)")
 
