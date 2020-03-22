@@ -34,9 +34,9 @@ def control() :
 
 def sms() :
 
-   phone_no = input("\033[100menter phone number : \033[0m")
+   phone_no = input("\033[34menter phone number : \033[0m")
 
-   msg = input("\033[100message to send : \033[0m")
+   msg = input("\033[34mmessage to send : \033[0m")
 
    resp = requests.post('https://textbelt.com/text',{
 
@@ -66,7 +66,7 @@ os.system("clear")
 
 os.system("toilet -f mono12 -F gay GALAXY- ")
 
-print("\033[33m.\033[41mCoded by github.com/ProfessorCipher")
+print("\033[5m.\033[41mCoded by github.com/ProfessorCipher")
 
 print("\033[33m.\033[33mRe-updated tool by 445H4N or also known as PROF.CIPHER :)")
 
