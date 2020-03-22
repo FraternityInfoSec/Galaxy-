@@ -18,7 +18,7 @@ def menu() :
 
 def control() :
 
-    ctrl = input("\033[100mWhat you want to do : \033[0m")
+    ctrl = input("\033[5mWhat you want to do : \033[0m")
 
     if ctrl == "1" :
 
@@ -66,9 +66,9 @@ os.system("clear")
 
 os.system("toilet -f mono12 -F gay GALAXY- ")
 
-print("\033[5m.\033[41mCoded by github.com/ProfessorCipher")
+print("\033[41mCoded by github.com/ProfessorCipher")
 
-print("\033[33m.\033[33mRe-updated tool by 445H4N or also known as PROF.CIPHER :)")
+print("\033[33mRe-updated tool by 445H4N or also known as PROF.CIPHER :)")
 
 menu()
 
